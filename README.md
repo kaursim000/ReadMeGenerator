@@ -1,5 +1,5 @@
 
-The license for this project is: [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) Apache 
+The license for this project is: [[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) Boost 
  
 ReadMe Generator
 Created by: Simran 
@@ -26,24 +26,24 @@ Name: Simran
  
  
 ## Description: 
- I created a read me generator that allows user to download a template to create read me's faster. 
+I created a template so users can easily create a ReadMe file for their projects. 
  
  
-## Installation: 
- Copy my code from git hub and install inquirer in javascript  
+## Installation:
+ Copy code down from my github and install inquirer through npm 
  
  
-## Usage: 
- type node index.js into your terminal window inside VS code 
+## Usage:
+ Run node index.js in the terminal window 
  
 
 ## Contributions: 
- undefined 
+undefined 
  
 
-## Test Instructions:
- run node index.js to test 
+## Test Instructions: 
+test using node index.js 
  
  
-## Questions:
- If you have questions you can go to my github this is my username kaursim000
+## Questions: 
+If you have questions you can go to my github this is my username kaursim000
