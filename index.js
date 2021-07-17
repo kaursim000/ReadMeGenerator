@@ -6,7 +6,7 @@ const questions = [];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
 
-const APIKey = GET /licenses
+
 
 
 // TODO: Create a function to initialize app
@@ -46,14 +46,19 @@ function init() {
             },
             {
                 type: 'input',
-                name: 'license',
-                message: 'What type of license did you choose?',
+                name: 'contributing',
+                message: '?',
             },
             {
                 type: 'list',
                 name: 'license',
                 message: 'What type of license did you choose?',
-                choices: [],
+                choices: ['Apache', 'Boost', 'BSD', 'Creative Commons','Eclispse', 'GNU', 'IBM', 'ISC', 'MIT', 'Other'],
+            },
+            {
+                type: 'input',
+                message: 'What is your github username?',
+                name: 'github',
             },
             {
                 type: 'list',
@@ -80,16 +85,18 @@ function init() {
 
     function template(objData) {
         return `
+${objData.title}
+Created by: ${objData.name}
+The license for this project is: ${objData.license}
     Table of Contents: \n 
-        Name \n 
-        Description \n
-        Installation \n
-        License \n
-        Usage \n
-        Contact Information \n \n \n \n \n 
-    Name: ${objData.name} \n \n 
-    Description: ${objData.description} \n \n 
-    Installation: ${objData.installation} `
+[Description](#description) \n
+[Installation](#Installation) \n
+[Usage](#usage) \n
+
+##Contact Information \n \n \n \n \n 
+Name: ${objData.name} \n \n 
+##Description: ${objData.description} \n \n 
+## Installation: ${objData.installation} `
     }
 
 }
